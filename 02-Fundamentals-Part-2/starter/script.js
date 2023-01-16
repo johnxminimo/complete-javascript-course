@@ -67,6 +67,8 @@ console.log(calcAge3(2003, 4));
 console.log(yearsToRetire(2003))
 */
 
+/*
+
 // Cut fruit into 4 pieces.
 function cutFruitPieces(fruit){
   return fruit*4
@@ -84,3 +86,49 @@ function fruitProcessor(apples, oranges){
 }
 
 console.log(fruitProcessor(3, 2));
+*/
+/*
+const friend1 = `Micheal`;
+const friend2 = `Steven`;
+
+// 2 Ways of instantiatinga an array.
+const friends = ['Michael', `Steven`, `Peter`];
+const years = new Array(1991, 1984, 2008, 2020);
+
+console.log(years.length); // returns array;
+
+friends.push(`John`); // This adds to the end of the array.
+
+// Instantiating an object.
+const john = {
+  firstName: `John`,
+  lastName: `Minimo`,
+  age: 2022-2003,
+  occupation: `Student`
+};
+
+console.log(john[`occupation`]); // Bracket Notation
+console.log(john.occupation); // Dot notation
+*/
+
+/*
+const john = {
+  firstName: `John`,
+  lastName: `Minimo`,
+  birthYear: 2003,
+  occupation: `Student`,
+  hasDriversLicense: true,
+
+  calcAge: function(){
+    if (!this.age) this.age = 2022-this.birthYear;
+    return this.age;
+  }
+};
+console.log(john["calcAge"]());
+console.log(john["age"]);
+
+*/
+
+for (let rep = 1; rep <= 10; rep++){
+  console.log(`You are at rep ${rep}`);
+}
